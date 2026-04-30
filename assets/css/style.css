@@ -1,0 +1,39 @@
+.img-portfolio {
+  width: 250px;
+}
+
+.nav-logo {
+  width: 80px;
+}
+
+.navbar {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.navbar .nav-link {
+  cursor: pointer !important;
+  position: relative;
+  border-bottom: 2px solid transparent !important;
+  transition:
+    border-color 0.2s ease-in-out,
+    color 0.2s ease;
+}
+
+.navbar-nav:hover .nav-link.active {
+  border-bottom-color: transparent !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #0000ea !important;
+  border-bottom: 2px solid #0000ea !important;
+}
+
+.card-transition {
+  transition: all 0.3s ease-in-out;
+}
+.card-transition:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
